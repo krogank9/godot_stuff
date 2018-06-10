@@ -28,6 +28,7 @@ func normalize_ang(ang):
 			ang -= PI*2
 		while ang < -PI:
 			ang += PI*2
+		return ang
 			
 # shortest ang between 2 normal angles -PI <= ang <= PI
 func shortest_ang_to(to, from):
