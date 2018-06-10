@@ -94,29 +94,22 @@
      inkscape:window-height="716"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="20.85965"
-     inkscape:cx="-3.3473632"
-     inkscape:cy="4.556351"
+     inkscape:zoom="29.5"
+     inkscape:cx="4.372853"
+     inkscape:cy="12.884076"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6" />
-  <circle
-     style="fill:none;fill-opacity:1;stroke:#1fff94;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+  <path
+     style="fill:none;fill-opacity:1;stroke:#a5b7f3;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     d="M 13.249762,7.9461738 A 5.5315113,5.5315113 0 0 1 7.7182503,13.477685 5.5315113,5.5315113 0 0 1 2.186739,7.9461738 5.5315113,5.5315113 0 0 1 7.7182503,2.4146625 5.5315113,5.5315113 0 0 1 13.249762,7.9461738 Z"
      id="path4542"
-     cx="7.7182503"
-     cy="7.9461737"
-     r="6.0051565" />
-  <g
-     transform="translate(0 -1036.4)"
-     id="g4"
-     style="fill-opacity:1;fill:#a3b4f0">
-    <path
-       transform="translate(0 1036.4)"
-       d="m9 1.2715l-0.70703 0.70703v1.4141l-2.1211 2.123 4.2422 4.2422 2.1211-2.1211h1.4141l0.70703-0.70703-5.6562-5.6582zm-3.5352 4.9512l-3.5352 0.70703 7.0703 7.0703 0.70703-3.5352-4.2422-4.2422zm-1.4141 4.2422l-1.4141 1.4141-0.70703 2.1211 2.1211-0.70703 1.4141-1.4141-1.4141-1.4141z"
-       id="path2"
-       fill-rule="evenodd"
-       fill="#fc9c9c"
-       style="fill-opacity:1;fill:#a3b4f0" />
-  </g>
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#a5b7f3;stroke-width:0.72491258;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     inkscape:transform-center-x="0.028033761"
+     inkscape:transform-center-y="-0.67364508"
+     d="M 12.080978,13.860486 8.8731987,11.454083 7.7876585,15.314424 6.6069583,11.482117 3.4596866,13.967134 4.7570533,10.172735 0.7502009,10.333235 4.0300845,8.0260749 0.69413285,5.800754 4.7037294,5.8620892 3.3128985,2.1009435 6.5206783,4.5073465 7.6062185,0.64700589 8.7869187,4.4793124 11.93419,1.9942958 10.636824,5.7886951 14.643676,5.6281943 11.363792,7.9353547 14.699744,10.160676 10.690148,10.09934 Z"
+     id="path950" />
 </svg>
