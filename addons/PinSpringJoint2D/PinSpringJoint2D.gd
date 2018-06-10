@@ -61,9 +61,9 @@ func _ready():
 	damping = Damping * 1000
 	stiffness = Stiffness
 	
-	# glitches out without this
-	if self.softness < 1:
-		self.softness = 1
+	# looks glitchy without a little slack
+	if self.softness < 0.5:
+		self.softness = 0.5
 	
 	if UseInitialAngle and body_a != null and body_b != null:
 		rest_angle_rads = body_b.rotation - body_a.rotation
