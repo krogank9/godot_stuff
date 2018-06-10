@@ -16,7 +16,6 @@ export(bool) var UseInitialAngle = true
 var stiffness
 var damping
 var rest_angle_rads
-var phys_fps
 
 var body_a
 var body_b
@@ -56,7 +55,7 @@ func _ready():
 	body_a = get_node(node_a)
 	body_b = get_node(node_b)
 	
-	if node_b == "../../r_arm":
+	if false:#node_b == "../../r_arm":
 		debug = true
 	
 	damping = Damping * 1000
@@ -83,12 +82,10 @@ func apply_rot_spring():
 	var l = rest_angle_rads
 	var x = shortest_ang_to(body_b.rotation, body_a.rotation)
 	var u = get_float(body_b,"angular_velocity") - get_float(body_a,"angular_velocity")
-	#print(get_float(body_a,"angular_velocity"))
 	
 	var l_to_x = shortest_ang_to(x, l)
 	
 	var torque = - k * l_to_x - (d * u)
-	#var torque = -k * (x - l)
 	if debug:
 		print(str(l_to_x) + ", " + str(u))
 	
